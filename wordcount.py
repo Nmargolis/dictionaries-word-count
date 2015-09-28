@@ -1,10 +1,11 @@
 import sys
 
 # put your code here.
+filename = sys.argv[1]
 
-def count_word(sys.argv[0]):
+def count_word(filename):
 
-    text_file = open(sys.argv[0])
+    text_file = open(filename)
 
     words = {}
 
